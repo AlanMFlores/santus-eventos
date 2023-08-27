@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <>
         <Header/>
-        <section className='mx-32 pt-20'>
+        <section className='mx-8 md:mx-16 lg:mx-32 pt-5 lg:pt-20'>
         <h2 className='text-2xl font-semibold mb-6'>Contacto</h2>
         <div className='flex flex-col gap-6 mb-16'>
             <p className='font-light leading-8'>
@@ -28,7 +28,7 @@ const Contact = () => {
 
         <p className='font-light leading-8 text-center mb-12'>Si te interesa dejar tu evento en nuestras manos, podes contactarte con nosotros y <span className='text-mainColor'>pedir una cotización</span> a través de los siguientes medios.</p>
         
-        <div className='flex justify-center gap-16 mb-32'>
+        <div className='flex flex-col items-center lg:flex-row justify-center gap-16 mb-32'>
             <Link href={"https://api.whatsapp.com/send/?phone=5493764399545&text&type=phone_number&app_absent=0"} target='blank'>
                 <div className='flex gap-4'>
                     <FontAwesomeIcon icon={faPhone} className='text-mainColor text-2xl'/>
@@ -57,7 +57,7 @@ const Contact = () => {
                     alt="santus isologotipo"
                 />
             </div>
-            <div className='flex justify-center gap-20 mb-24'>
+            <div className='flex flex-col md:flex-row justify-center gap-20 mb-24'>
                 <div>
                     <h3 className='font-semibold text-2xl text-mainColor mb-6 text-center'>Tuany Sanchez</h3>
                     <p className='text-center'>Productora ejecutiva de ventas</p>

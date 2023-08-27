@@ -1,12 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import ActionButton from '../ActionButton'
+import Link from 'next/link'
 
 const GallerySection = () => {
   return (
-    <div className='mx-32 py-20 flex flex-col items-center'>
+    <div className='mx-8 md:mx-16 lg:mx-32 py-20 flex flex-col items-center'>
         <h2 className='text-center text-2xl font-semibold mb-12'>Galería de Fotos</h2>
-        <div className='grid grid-cols-2 gap-8 mb-12'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12'>
             <div>
                 <Image
                     src={"/assets/images/gallery-home-1.jpg"}
@@ -40,7 +41,9 @@ const GallerySection = () => {
                 />
             </div>
         </div>
-        <ActionButton action={"Ver más fotos"}/>
+        <Link href={"/galeria"}>
+            <ActionButton action={"Ver más fotos"}/>
+        </Link>
     </div>
   )
 }
