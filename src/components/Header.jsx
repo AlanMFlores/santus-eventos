@@ -36,7 +36,7 @@ const Header = () => {
                         <Link href={"/"} className='font-semibold duration-300 hover:text-mainColor'>Home</Link>
                     </li>
                     <li>
-                        <Link href={""} className='font-semibold duration-300 hover:text-mainColor'>Staff</Link>
+                        <Link href={"/staff"} className='font-semibold duration-300 hover:text-mainColor'>Staff</Link>
                     </li>
                     <li>
                         <Link href={"/galeria"} className='font-semibold duration-300 hover:text-mainColor'>Galería</Link>

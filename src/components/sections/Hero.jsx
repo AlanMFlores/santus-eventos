@@ -8,9 +8,9 @@ import Header from '../Header'
 
 const Hero = () => {
   return (
-    <section className='h-screen background-gradient pt-4'>
+    <section className='h-auto lg:h-screen background-gradient pt-4'>
         <Header/>
-        <div className='h-[80vh] flex flex-col items-center justify-center mx-8 md:mx-16'>
+        <div className='pt-5 lg:pt-0 lg:h-[80vh] flex flex-col items-center justify-center mx-8 md:mx-16'>
             <div className='mb-10'>
                 <Image
                     src={"/assets/images/santus-logotipo.svg"}
