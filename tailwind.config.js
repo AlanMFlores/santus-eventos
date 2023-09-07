@@ -17,6 +17,7 @@ module.exports = {
         secondaryColor: "#B28933",
         grayColor: "#A1A1AA",
         darkColor: "#0C0C0C",
+        overlayColor: "rgba(41,37,36, 0.8)"
       },
       backgroundColor: {
         backgroundRadial: "radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%)"

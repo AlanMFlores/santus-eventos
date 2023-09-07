@@ -3,7 +3,7 @@ import ProposalCard from '../ProposalCard'
 
 const ProposalSection = () => {
   return (
-    <div className='flex flex-col items-center mx-8 md:mx-16 lg:mx-32 pt-20'>
+    <div className='flex flex-col items-center mx-8 md:mx-16 lg:mx-32' id={'proposal'}>
         <h2 className='text-center text-2xl font-semibold mb-6'>Nuestra Propuesta</h2>
         <p className='w-full lg:w-[600px] font-light text-center leading-8 mb-16'>En <span className='text-mainColor font-semibold'>Santu’s</span>, estamos emocionados de ser tu aliado perfecto en eventos corporativos e institucionales.</p>
         <div className='flex gap-6 mb-16 flex-col lg:flex-row'>
