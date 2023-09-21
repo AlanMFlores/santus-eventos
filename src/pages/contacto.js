@@ -61,7 +61,7 @@ const Contact = () => {
                 <div className='flex flex-col items-center gap-4'>
                     <h3 className='font-semibold text-2xl text-mainColor mb-6 text-center'>Tuany Sanchez</h3>
                     <p className='text-center'>Productora ejecutiva de ventas</p>
-                    <p className='text-center'>Diseñeadora de eventos</p>
+                    <p className='text-center'>Diseñadora de eventos</p>
                     <Link href={"https://api.whatsapp.com/send/?phone=5493764399545&text&type=phone_number&app_absent=0"} target='blank'>
                         <div className='flex gap-4'>
                             <FontAwesomeIcon icon={faPhone} className='text-mainColor text-2xl'/>
