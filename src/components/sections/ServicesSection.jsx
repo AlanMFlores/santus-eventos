@@ -48,12 +48,6 @@ const ServicesSection = () => {
                 <li className='flex justify-center items-center gap-2'>
                     <FontAwesomeIcon icon={faSquareCheck} className='text-mainColor'/>
                     <p>
-                        Sonido-Pantalla Led-DJ
-                    </p>
-                </li>
-                <li className='flex justify-center items-center gap-2'>
-                    <FontAwesomeIcon icon={faSquareCheck} className='text-mainColor'/>
-                    <p>
                         Asesoramiento personalizado
                     </p>
                 </li>
